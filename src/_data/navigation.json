@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/",
+      "cls": "invisible-nav-item"
+    },
+    {
+      "text": "About",
+      "url": "/about/",
+      "cls": "visible-nav-item"
+    },
+    {
+      "text": "Work",
+      "url": "/work/",
+      "cls": "visible-nav-item"
+    },
+    {
+      "text": "Gallery",
+      "url": "/gallery/",
+      "cls": "visible-nav-item"
+    }
+  ]
+}

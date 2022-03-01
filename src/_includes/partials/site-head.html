@@ -1,0 +1,23 @@
+<header>
+  <nav class="header-nav">
+    <ul>
+      <li> <!-- logo -->
+        <a href="/" class="header-logo">
+          <svg height="20" width="20">
+            <circle cx="10" cy="10" r="8"
+                    stroke="black" stroke-width="3" fill="red"
+            />
+          </svg> 
+        </a>
+      </li>
+      <!-- loop through the list value of the "items" key
+           in src/_data/navigation.json -->
+      {% for item in navigation.items %}
+          <li class="{{ item.cls }}">
+              <a href="{{ item.url }}"> {{ item.text }} </a>
+          </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+
