@@ -1,5 +1,6 @@
 ---
 siteName: "Hello, world"
-title: "Hello, world. I'm using the home template."
+title: "MA Broadcast and Digital Journalism"
 layout: "layouts/home.html"
 ---
+

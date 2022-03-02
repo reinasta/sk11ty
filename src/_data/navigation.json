@@ -6,13 +6,13 @@
       "cls": "invisible-nav-item"
     },
     {
-      "text": "About",
-      "url": "/about/",
+      "text": "Form",
+      "url": "/form/",
       "cls": "visible-nav-item"
     },
     {
-      "text": "Work",
-      "url": "/work/",
+      "text": "About",
+      "url": "/about/",
       "cls": "visible-nav-item"
     },
     {

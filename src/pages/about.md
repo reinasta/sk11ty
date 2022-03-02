@@ -1,8 +1,9 @@
 ---
 title: About
-layout: 'layouts/home.html'
+layout: 'layouts/base.html'
 permalink: '/about/index.html'
 ---
 
-**Markdown** _content_ about ME.
-<p> And some html about ME.</p>
+You’ll be trained by experienced professional journalists who will help you to kick start your career in the media.
+
+MA Broadcast and Digital Journalism at University of East Anglia.
