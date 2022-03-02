@@ -1,6 +1,6 @@
 ---
 title: Gallery
-layout: 'layouts/base.html'
+layout: 'layouts/home.html'
 permalink: '/gallery/index.html'
 ---
 
@@ -9,7 +9,16 @@ permalink: '/gallery/index.html'
 <figure class="image-block">
    <img src="{{ img.localUrl }}" alt="{{ img.title }}" />
    <figcaption>
-      {{ img.title }} &#127909; {{ img.student }}
+     <a href="{{ img.externalUrl }}">
+       {{ img.title }}
+     </a>
+     by {{ img.author }}
+   </figcaption>
+   <figcaption>
+     <a href="{{ img.licenseUrl }}">
+       {{ img.license }}
+     </a>
+     license
    </figcaption>
 </figure>
 {%- endfor -%}

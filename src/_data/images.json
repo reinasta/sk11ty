@@ -1,47 +1,31 @@
 {
   "images": [
     {
-      "title": "In the studio",
-      "student": "Student Name",
-      "localUrl": "../_includes/images/bjm1.jpeg",
+      "title": "Eleven Below",
+      "author": "Brian Lukis",
+      "license": "CC BY-NC 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+      "localUrl": "../_includes/images/eleven_below.png",
+      "externalUrl": "http://plurib.us/1shot/2007/eleven_below/",
       "cls": "gallery-image"
     },
     {
-      "title": "Radio",
-      "student": "Student Name",
-      "localUrl": "../_includes/images/bjm2.jpeg",
+      "title": "Clay Cups",
+      "author": "Brian Lukis",
+      "license": "CC BY-NC 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+      "localUrl": "../_includes/images/clay_cups.png",
+      "externalUrl": "http://plurib.us/1shot/2007/clay_cups/",
       "cls": "gallery-image"
     },
     {
-      "title": "Interview",
-      "student": "Student Name",
-      "localUrl": "../_includes/images/bjm3.jpeg",
-      "cls": "gallery-image"
-    },
-    {
-      "title": "Video editing",
-      "student": "Student Name",
-      "localUrl": "../_includes/images/bjm4.jpeg",
-      "cls": "gallery-image"
-    },
-    {
-      "title": "In the studio",
-      "student": "Student Name",
-      "localUrl": "../_includes/images/bjm5.jpeg",
-      "cls": "gallery-image"
-    },
-    {
-      "title": "Recording",
-      "student": "Student Name",
-      "localUrl": "../_includes/images/bjm6.jpeg",
-      "cls": "gallery-image"
-    },
-    {
-      "title": "Monitoring",
-      "student": "Student Name",
-      "localUrl": "../_includes/images/bjm7.jpeg",
+      "title": "Grapefruit",
+      "author": "Brian Lukis",
+      "license": "CC BY-NC 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+      "localUrl": "../_includes/images/grapefruit.png",
+      "externalUrl": "http://plurib.us/1shot/2007/grapefruit/",
       "cls": "gallery-image"
     }
-
   ]
 }
