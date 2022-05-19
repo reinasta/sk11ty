@@ -1,5 +1,10 @@
 module.exports = config => {
 
+  // remove the 'index.html' ending of a url like '/about/index.html'
+  config.addFilter("shorten", function(path) {
+    return path.replace(/\/index.html$/,'');
+  });
+
   // plumbing and configuration
 
   // Set images to pass through to the dist folder

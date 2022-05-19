@@ -1,5 +1,9 @@
 ---
 siteName: "Hello, world"
-title: "Hello, world. I'm using the home template."
+title: Home
+tags: ['navItem']
 layout: "layouts/home.html"
+permalink: '/'
 ---
+
+Hello, world!

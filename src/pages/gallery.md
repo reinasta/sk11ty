@@ -1,5 +1,7 @@
 ---
 title: Gallery
+tags: ['navItem','post']
+class: 'mygallery'
 layout: 'layouts/home.html'
 permalink: '/gallery/index.html'
 ---

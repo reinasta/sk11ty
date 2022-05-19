@@ -1,6 +1,6 @@
 <header>
   <nav class="header-nav">
-    <ul>
+    <ul class="header">
       <li> <!-- logo -->
         <a href="/" class="header-logo">
           <svg height="20" width="20">
@@ -10,13 +10,11 @@
           </svg> 
         </a>
       </li>
-      <!-- loop through the list value of the "items" key
-           in src/_data/navigation.json -->
-      {% for item in navigation.items %}
-          <li class="{{ item.cls }}">
-              <a href="{{ item.url }}"> {{ item.text }} </a>
-          </li>
-      {% endfor %}
+    {%- for navit in collections.navItem -%}
+      <li class="{{ navit.data.class }}">
+        <a href="{{ navit.data.permalink | shorten }}"> {{ navit.data.title }} </a>
+      </li>
+    {%- endfor -%}
     </ul>
   </nav>
 </header>
